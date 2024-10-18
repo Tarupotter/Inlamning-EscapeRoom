@@ -53,6 +53,30 @@ img {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 30px;
     color: #36769D;
     font-weight: bold;
+}
+
+.john_quote {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.john {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.quote {
+margin:0;
+font-style: italic;
+}
+
+.quote_name {
+    margin-top: 0;
+    margin-left: 80px;
+    margin-right: 20px;
+    font-size: 14px;
 }
