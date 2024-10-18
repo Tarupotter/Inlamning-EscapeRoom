@@ -80,3 +80,53 @@ font-style: italic;
     margin-right: 20px;
     font-size: 14px;
 }
+
+.pText {
+   text-align: center;
+   font-size: 24px;
+}
+
+.scroll {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    
+    
+}
+
+.challenges {
+    flex: 0 0 auto;
+    width:250px;
+    margin: 5px; 
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  
+  box-shadow: 5px 10px 8px #888888;
+    
+    
+}
+
+.challenges img {
+    border-radius: 5px 5px 0 0 ;
+    margin-bottom: 0;
+    
+} 
+
+.challenges h3 {
+    margin: 0 0 0 10px;
+    font-weight:normal;
+}
+
+.stars {
+    display: flex;
+    width: 11px;
+    height: 11px;
+    margin-left: 12px;
+}
+
+.stars img {
+    margin-right: 5px;
+}
+
+
+
