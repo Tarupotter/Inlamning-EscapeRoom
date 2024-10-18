@@ -1,34 +1,48 @@
-.container{
-     
-    
-}
-
-.header{
-    background: #011827;
-    width: 100%;
-
-}
-
-.header_logo_text{
+.container {
     display: flex;
-    flex-direction: row;
-    padding:10px;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
     
 }
-.logo {
-   padding-bottom: 10px;
-    width: 128px;
-    height: 82;
+
+.header {
+    background: #011827;
+    height: 110px;
+    width: auto;
+}
+.logo-text{
+    display: flex;
+    width:100px;
+    height: 70px;
+    padding: 20px;
 }
 
 .text{
-
-   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   color: white;
-   font-size: 24px;
-   width: 20%;
-   padding-left: 10px;
-   
-   
+    color: white;
+    height: 20px;
+    font-size: 1rem;
+    margin-top: 3px;
+    margin-left: 5px;
 }
 
+img {
+    width: 100%;
+    height: auto;margin-bottom: 20px;
+}
+
+.button1{
+    display: block;
+    background-color: #8ACFE5;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 200px;
+    border:none;
+    border-radius: 2px;
+    margin: auto;
+    padding: 10px;
+    
+   
+    
+}
