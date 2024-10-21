@@ -197,3 +197,35 @@ font-size: 18px;
     margin: 20px 0 50px 10px;
     font-size: 18px;
 }
+
+footer {
+    background-color: #011827;
+    color:white;
+    height: 390px;;
+    display: flex;
+    flex-direction: column;
+}
+
+.first_footer_h5 {
+    margin-top: 40px;
+}
+
+footer h5 {
+    margin: 20px 0 5px 10px;
+}
+
+footer p {
+    font-size: 12px;
+    margin: 0 0 0 10px;
+}
+
+footer a {
+    margin: 0 0 0 10px;
+    font-size: 12px;
+}
+
+.footer_div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
