@@ -47,7 +47,7 @@ img {
     background-color: #8ACFE5;
     font-size: 1.1rem;
     font-weight: bold;
-    width: 250px;
+    width: 230px;
     border: none;
     border-radius: 2px;
     margin: auto;
@@ -164,11 +164,36 @@ img {
 
 .section button {
     align-self: center;
-    width: 250px;
+    width: 230px;
     padding: 10px;
     color: #8ACFE5;
     background-color: #011827;
     border-color: #8ACFE5;
     font-size: 18px;
     border-radius: 3px;
+}
+
+.section_image {
+    margin: 0;
+}
+
+.section_title{
+    margin: 0 5px 20px 15px;
+    font-size: 24px;
+}
+
+.section_text {
+margin: 0 5px 5px 15px;
+font-size: 18px;
+}
+
+.section_button {
+    background-color: #E3170A;
+    color: white;
+    padding: 10px;
+    width: 230px;
+    border: none;
+    border-radius: 3px;
+    margin: 20px 0 50px 10px;
+    font-size: 18px;
 }
