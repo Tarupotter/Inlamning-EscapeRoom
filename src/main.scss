@@ -1,0 +1,233 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #011827;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: auto;
+}
+
+.logo_text {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.text {
+    color: white;
+    height: 20px;
+    width: 20%;
+    font-size: 1rem;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: block;
+    background-color: #8ACFE5;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 230px;
+    border: none;
+    border-radius: 2px;
+    margin: auto;
+    padding: 10px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #36769D;
+    font-weight: bold;
+}
+
+.image_quote {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.image {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.quote {
+    margin: 0;
+    font-style: italic;
+}
+
+.quote_name {
+    margin-top: 0;
+    margin-left: 80px;
+    margin-right: 20px;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.p_text {
+    text-align: center;
+    font-size: 24px;
+}
+
+.scroll {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.challenges {
+    flex: 0 0 auto;
+    width: 250px;
+    margin: 5px;
+    margin-bottom: 50px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px#b8b5b594;
+}
+
+.challenges img {
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 0;
+}
+
+.challenges h3 {
+    margin: 0 0 0 10px;
+    font-weight: normal;
+}
+
+.star_rating {
+    display: flex;
+    width: 11px;
+    height: 11px;
+    margin-left: 12px;
+}
+
+.star_rating img {
+    margin-right: 5px;
+}
+
+.challenges_text {
+    width: 240px;
+    margin: auto;
+    font-size: 13px;
+}
+
+.booking_button {
+    background-color: #E3170A;
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    height: 390px;
+    background-color: #011827;
+}
+
+.section p {
+    text-align: center;
+    align-self: center;
+    color: white;
+    width: 90%;
+    margin: 70px 0 40px;
+    font-size: 20px;
+}
+
+.section button {
+    align-self: center;
+    width: 230px;
+    padding: 10px;
+    color: #8ACFE5;
+    background-color: #011827;
+    border-color: #8ACFE5;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.section_image {
+    margin: 0;
+}
+
+.section_title{
+    margin: 0 5px 20px 15px;
+    font-size: 24px;
+}
+
+.section_text {
+margin: 0 5px 5px 15px;
+font-size: 18px;
+}
+
+.section_button {
+    background-color: #E3170A;
+    color: white;
+    padding: 10px;
+    width: 230px;
+    border: none;
+    border-radius: 3px;
+    margin: 20px 0 50px 10px;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #011827;
+    color:white;
+    height: 390px;;
+    display: flex;
+    flex-direction: column;
+}
+
+.first_footer_h5 {
+    margin-top: 40px;
+}
+
+footer h5 {
+    margin: 20px 0 5px 10px;
+}
+
+footer p {
+    font-size: 12px;
+    margin: 0 0 0 10px;
+}
+
+footer a {
+    margin: 0 0 0 10px;
+    font-size: 12px;
+}
+
+.footer_div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
