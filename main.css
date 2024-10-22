@@ -17,7 +17,7 @@ body {
     width: auto;
 }
 
-.logo-text {
+.logo_text {
     display: flex;
     margin-top: 20px;
     margin-left: 15px;
@@ -42,7 +42,7 @@ img {
     margin-bottom: 20px;
 }
 
-.button1 {
+.button {
     display: block;
     background-color: #8ACFE5;
     font-size: 1.1rem;
@@ -63,13 +63,13 @@ img {
     font-weight: bold;
 }
 
-.john_quote {
+.image_quote {
     display: flex;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.john {
+.image {
     width: 50px;
     margin-right: 10px;
 }
@@ -84,9 +84,10 @@ img {
     margin-left: 80px;
     margin-right: 20px;
     font-size: 14px;
+    margin-bottom: 50px;
 }
 
-.pText {
+.p_text {
     text-align: center;
     font-size: 24px;
 }
@@ -117,14 +118,14 @@ img {
     font-weight: normal;
 }
 
-.stars {
+.star_rating {
     display: flex;
     width: 11px;
     height: 11px;
     margin-left: 12px;
 }
 
-.stars img {
+.star_rating img {
     margin-right: 5px;
 }
 
@@ -229,3 +230,4 @@ footer a {
     flex-direction: column;
     margin-top: 20px;
 }
+
