@@ -130,11 +130,41 @@ img {
   }
 }
 
+@media screen and (min-width: 1000px) {
+  .outer_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+  }
+}
+
 .image_quote {
   display: flex;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 50px;
+}
+@media screen and (min-width: 1000px) {
+  .image_quote {
+    width: 400px;
+  }
+}
+
+.hidden_content {
+  display: none;
+}
+@media screen and (min-width: 1000px) {
+  .hidden_content {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .quote_container,
+  .hidden_content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 .image {
@@ -166,6 +196,12 @@ img {
   overflow-x: auto;
   margin-left: 30px;
 }
+@media screen and (min-width: 1000px) {
+  .scroll {
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+}
 
 .challenges {
   flex: 0 0 auto;
@@ -175,6 +211,11 @@ img {
   border: 1px solid lightgray;
   border-radius: 5px;
   box-shadow: 2px 2px 2px 2px rgba(184, 181, 181, 0.5803921569);
+}
+@media screen and (min-width: 1000px) {
+  .challenges {
+    margin-right: 40px;
+  }
 }
 
 .challenges img {
@@ -267,6 +308,21 @@ img {
   border-radius: 3px;
   margin: 20px 0 50px 10px;
   font-size: 18px;
+}
+
+@media screen and (min-width: 1000px) {
+  .second_section {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .section_box {
+    text-align: center;
+    width: 500px;
+    margin-top: 50px;
+  }
 }
 
 footer {

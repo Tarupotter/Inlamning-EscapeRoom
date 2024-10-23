@@ -111,7 +111,7 @@ img {
 @media screen and (min-width: $screen-breakpoint) {
     .buttons {
         display: flex;
-        
+
     }
 }
 
@@ -127,7 +127,6 @@ img {
     text-decoration: underline 2px solid #36769d80;
 
     @media screen and (min-width: $screen-breakpoint) {
-
         transform: translateY(-47px);
         background-color: #8ACFE5;
         color: black;
@@ -140,11 +139,39 @@ img {
     }
 }
 
+.outer_container {
+    @media screen and (min-width: $screen-breakpoint) {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-items: center;
+    }
+}
+
 .image_quote {
     display: flex;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 50px;
+
+    @media screen and (min-width: $screen-breakpoint) {
+        width: 400px;
+    }
+}
+
+.hidden_content {
+    display: none;
+
+    @media screen and (min-width: $screen-breakpoint) {
+        display: flex;
+    }
+}
+
+.quote_container,
+.hidden_content {
+    @media screen and (min-width: $screen-breakpoint) {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 .image {
@@ -156,6 +183,7 @@ img {
     margin: 0;
     font-style: italic;
 }
+
 
 .quote_name {
     margin-top: 0;
@@ -175,6 +203,11 @@ img {
     flex-wrap: nowrap;
     overflow-x: auto;
     margin-left: 30px;
+
+    @media screen and (min-width: $screen-breakpoint) {
+    justify-content: center;
+    margin-bottom: 60px;    
+    }
 }
 
 .challenges {
@@ -185,6 +218,11 @@ img {
     border: 1px solid lightgray;
     border-radius: 5px;
     box-shadow: 2px 2px 2px 2px#b8b5b594;
+
+    @media screen and (min-width: $screen-breakpoint) {
+    margin-right: 40px;
+
+    }
 }
 
 .challenges img {
@@ -268,6 +306,14 @@ img {
     font-size: 18px;
 }
 
+.section_title, .section_text {
+    @media screen and (min-width: $screen-breakpoint) {
+    //fixa så det hamnar fint i mitten
+   
+       
+    }
+}
+
 .section_button {
     background-color: #E3170A;
     color: white;
@@ -277,6 +323,22 @@ img {
     border-radius: 3px;
     margin: 20px 0 50px 10px;
     font-size: 18px;
+}
+
+.second_section {
+    @media screen and (min-width: $screen-breakpoint) {
+    display: grid;
+    grid-template-columns: auto auto;
+    }
+}
+
+.section_box {
+    @media screen and (min-width: $screen-breakpoint) {
+    text-align: center;
+    width: 500px;
+    margin-top: 50px;
+    
+    }
 }
 
 footer {
