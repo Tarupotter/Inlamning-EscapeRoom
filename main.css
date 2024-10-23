@@ -91,7 +91,20 @@ img {
   margin: auto;
   padding: 10px;
 }
+@media screen and (min-width: 1000px) {
+  .button {
+    transform: translateY(-47px);
+    background-color: #E3170A;
+    color: white;
+    margin-right: 10px;
+  }
+}
 
+@media screen and (min-width: 1000px) {
+  .buttons {
+    display: flex;
+  }
+}
 .button2 {
   display: block;
   background-color: white;
@@ -102,6 +115,19 @@ img {
   margin: auto;
   padding-top: 20px;
   text-decoration: underline 2px solid rgba(54, 118, 157, 0.5019607843);
+}
+@media screen and (min-width: 1000px) {
+  .button2 {
+    transform: translateY(-47px);
+    background-color: #8ACFE5;
+    color: black;
+    font-size: 20px;
+    width: 250px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 2px;
+    text-decoration: none;
+  }
 }
 
 .image_quote {

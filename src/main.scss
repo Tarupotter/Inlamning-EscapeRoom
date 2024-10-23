@@ -20,7 +20,7 @@ body {
 
     @media screen and (min-width: 1000px) {
         height: 230px;
-        
+
     }
 
 
@@ -34,8 +34,8 @@ body {
             margin-top: 50px;
             list-style: none;
             font-size: 26px;
-            color: white; 
-            font-weight: bold; 
+            color: white;
+            font-weight: bold;
 
             li {
                 margin-right: 115px;
@@ -72,7 +72,7 @@ body {
         font-size: 32px;
         width: 400px;
         margin-left: 15px;
-        
+
     }
 }
 
@@ -99,6 +99,20 @@ img {
     border-radius: 2px;
     margin: auto;
     padding: 10px;
+
+    @media screen and (min-width: $screen-breakpoint) {
+        transform: translateY(-47px);
+        background-color: #E3170A;
+        color: white;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: $screen-breakpoint) {
+    .buttons {
+        display: flex;
+        
+    }
 }
 
 .button2 {
@@ -110,7 +124,20 @@ img {
     border: none;
     margin: auto;
     padding-top: 20px;
-    text-decoration: underline 2px solid #36769d80 ;
+    text-decoration: underline 2px solid #36769d80;
+
+    @media screen and (min-width: $screen-breakpoint) {
+
+        transform: translateY(-47px);
+        background-color: #8ACFE5;
+        color: black;
+        font-size: 20px;
+        width: 250px;
+        padding: 10px;
+        margin-left: 10px;
+        border-radius: 2px;
+        text-decoration: none;
+    }
 }
 
 .image_quote {
