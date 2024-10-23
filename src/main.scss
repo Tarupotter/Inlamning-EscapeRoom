@@ -20,13 +20,10 @@ body {
 
     @media screen and (min-width: 1000px) {
         height: 230px;
-
     }
-
 
     ul {
         display: none;
-
 
         @media screen and (min-width: $screen-breakpoint) {
             display: flex;
@@ -41,12 +38,8 @@ body {
                 margin-right: 115px;
             }
         }
-
     }
-
-
 }
-
 
 .logo_text {
     display: flex;
@@ -72,7 +65,6 @@ body {
         font-size: 32px;
         width: 400px;
         margin-left: 15px;
-
     }
 }
 
@@ -111,7 +103,6 @@ img {
 @media screen and (min-width: $screen-breakpoint) {
     .buttons {
         display: flex;
-
     }
 }
 
@@ -183,7 +174,6 @@ img {
     margin: 0;
     font-style: italic;
 }
-
 
 .quote_name {
     margin-top: 0;
@@ -309,8 +299,7 @@ img {
 .section_title, .section_text {
     @media screen and (min-width: $screen-breakpoint) {
     //fixa så det hamnar fint i mitten
-   
-       
+     
     }
 }
 
