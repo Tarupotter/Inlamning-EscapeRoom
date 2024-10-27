@@ -3,6 +3,12 @@
   flex-direction: column;
   font-family: "Roboto", sans-serif;
 }
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1300px;
+    margin: auto;
+  }
+}
 
 body {
   margin: 0;
@@ -24,7 +30,7 @@ body {
 .header ul {
   display: none;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .header ul {
     display: flex;
     justify-content: center;
@@ -58,7 +64,7 @@ body {
   margin-top: 9px;
   margin-left: 5px;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .text {
     margin-top: 40px;
     font-size: 32px;
@@ -73,7 +79,7 @@ img {
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .header_image {
     height: 550px;
     object-fit: cover;
@@ -91,7 +97,7 @@ img {
   margin: auto;
   padding: 10px;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .button {
     transform: translateY(-47px);
     background-color: #E3170A;
@@ -100,7 +106,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .buttons {
     display: flex;
   }
@@ -116,7 +122,7 @@ img {
   padding-top: 20px;
   text-decoration: underline 2px solid rgba(54, 118, 157, 0.5019607843);
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .button2 {
     transform: translateY(-47px);
     background-color: #8ACFE5;
@@ -130,7 +136,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .outer_container {
     display: grid;
     grid-template-columns: auto auto;
@@ -144,22 +150,23 @@ img {
   margin-right: 20px;
   margin-top: 50px;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .image_quote {
-    width: 400px;
+    width: 500px;
+    font-size: 24px;
   }
 }
 
 .hidden_content {
   display: none;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .hidden_content {
     display: flex;
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .quote_container,
   .hidden_content {
     display: grid;
@@ -170,6 +177,11 @@ img {
 .image {
   width: 50px;
   margin-right: 10px;
+}
+@media screen and (min-width: 1200px) {
+  .image {
+    width: 300px;
+  }
 }
 
 .quote {
@@ -184,6 +196,13 @@ img {
   font-size: 14px;
   margin-bottom: 50px;
 }
+@media screen and (min-width: 1200px) {
+  .quote_name {
+    font-size: 20px;
+    margin-left: 130px;
+    width: 350px;
+  }
+}
 
 .p_text {
   text-align: center;
@@ -196,7 +215,7 @@ img {
   overflow-x: auto;
   margin-left: 30px;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .scroll {
     justify-content: center;
     margin-bottom: 60px;
@@ -205,14 +224,15 @@ img {
 
 .challenges {
   flex: 0 0 auto;
-  width: 250px;
+  width: 350px;
+  height: 420px;
   margin: 5px;
   margin-bottom: 50px;
   border: 1px solid lightgray;
   border-radius: 5px;
   box-shadow: 2px 2px 2px 2px rgba(184, 181, 181, 0.5803921569);
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .challenges {
     margin-right: 40px;
   }
@@ -226,35 +246,49 @@ img {
 .challenges h3 {
   margin: 0 0 0 10px;
   font-weight: normal;
+  font-size: 24px;
 }
 
 .star_rating {
   display: flex;
-  width: 11px;
-  height: 11px;
   margin-left: 12px;
 }
 
 .star_rating img {
   margin-right: 5px;
+  height: 15px;
+  width: 15px;
+}
+
+.star_rating p {
+  margin-top: 0;
+  font-size: 14px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .star_rating p {
+    margin-left: 130px;
+  }
 }
 
 .challenges_text {
-  width: 240px;
+  width: 290px;
   margin: auto;
-  font-size: 13px;
+  font-size: 18px;
 }
 
 .booking_button {
   background-color: #E3170A;
   color: white;
-  width: 150px;
+  font-size: 18px;
+  width: 180px;
   border: none;
   border-radius: 3px;
   padding: 10px;
-  margin-left: 90px;
+  margin-left: 160px;
   margin-top: 20px;
-  margin-bottom: 8px;
+  margin-bottom: px;
 }
 
 .section {
@@ -272,6 +306,13 @@ img {
   width: 90%;
   margin: 70px 0 40px;
   font-size: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .section p {
+    width: 500px;
+    margin-top: 100px;
+    font-size: 25px;
+  }
 }
 
 .section button {
@@ -310,18 +351,51 @@ img {
   font-size: 18px;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .second_section {
     display: grid;
     grid-template-columns: auto auto;
   }
+  .second_section h3,
+  .second_section p {
+    width: 400px;
+    margin-left: 100px;
+  }
+  .second_section button {
+    margin-left: 100px;
+  }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .section_box {
-    text-align: center;
-    width: 500px;
+    width: 470px;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .third_section {
+    display: flex;
+  }
+  .third_section img {
+    order: 2;
+  }
+  .third_section .third_section_box {
+    width: 1320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .third_section h3,
+  .third_section p {
+    width: 400px;
+    margin-left: 100px;
+  }
+  .third_section button {
+    margin-left: 100px;
   }
 }
 
@@ -331,6 +405,29 @@ footer {
   height: 390px;
   display: flex;
   flex-direction: column;
+}
+@media screen and (min-width: 1200px) {
+  footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  footer .footer_text {
+    width: 300px;
+    grid: span 2;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  footer .footer_list {
+    display: flex;
+    flex-direction: column;
+    grid-column: 3;
+    margin-top: 100px;
+  }
+  footer .footer_links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
 }
 
 .first_footer_h5 {
@@ -347,6 +444,8 @@ footer p {
 }
 
 footer a {
+  display: flex;
+  flex-direction: column;
   margin: 0 0 0 10px;
   font-size: 12px;
 }
