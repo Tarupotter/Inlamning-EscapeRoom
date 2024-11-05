@@ -16,6 +16,7 @@ body {
 }
 
 .header {
+  position: relative;
   background: #011827;
   margin: 0;
   padding: 0;
@@ -25,6 +26,21 @@ body {
 @media screen and (min-width: 1000px) {
   .header {
     height: 230px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .header .menu_button {
+    background-color: #011827;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    width: 50px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .header .menu_button {
+    display: none;
   }
 }
 .header ul {
