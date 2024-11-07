@@ -42,7 +42,7 @@ body {
             width: 50px;
         }
 
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: $screen-breakpoint) {
             display: none;
         }
     }
@@ -86,11 +86,11 @@ body {
         display: none;
 
         @media screen and (max-width: $screen-max-breakpoint) {
-            display: flex;
-            position: fixed;
-            top: 20px;
-            right: 25px;
-            background-color: #011827;
+            display: block;
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            background-color:#011827;
             border: none;
             color: white;
             font-size: 34px;
