@@ -12,23 +12,29 @@
 
 
 
-<body>
+<body id="body">
+
     <div class="container">
         <header class="header">
             <div class="logo_text">
                 <img class="logo" src="images/image 4.png" alt="logo">
                 <h1 class="text">
                     Hacker Escape Rooms
-                </h1>  
+                </h1>
             </div>
-            <button class="menu_button"><img src="images/Group 7.png"></im></button>
+            <button id="button" class="menu_button"><img src="images/Group 7.png"></im></button>
+        </header>
+
+        <div id="blurred"></div>
+        <div id="popup_content">
+            <button id="close_button">✖</button>
             <ul>
                 <li>Play online</li>
                 <li>Play on-site</li>
                 <li>The story</li>
                 <li>Contact us</li>
             </ul>
-        </header>
+        </div>
 
 
         <main class="main">
@@ -198,6 +204,7 @@
         </main>
 
     </div>
+    <script src="src/script.js"></script>
 </body>
 
 </html>
