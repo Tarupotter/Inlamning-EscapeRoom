@@ -10,14 +10,12 @@ $screen-max-breakpoint: 1200px;
         max-width: 1300px;
         margin: auto;
     }
-
 }
 
 body {
     margin: 0;
     padding: 0;
 }
-
 
 .header {
     position: relative;
@@ -47,7 +45,6 @@ body {
 }
 
 #blurred {
-
     position: fixed;
     top: 0;
     left: 0;
@@ -63,72 +60,76 @@ body {
 
 #popup_content {
     display: none;
+
+    @media screen and (min-width: $screen-breakpoint) {
+        display: flex;
+        justify-content: center;
+        background-color: #011827;
+
+        #close_button {
+            @media screen and (min-width: $screen-breakpoint) {
+                display: none
+            }
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+        }
+
+        li {
+            color: white;
+            margin-right: 60px;
+            margin-left: 80px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    }
+
+}
+
+#popup_content.showPopup {
+    display: flex;
     position: fixed;
-    left: 20px;
-    right: 20px;
-    top: 20px;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
     background-color: #011827;
-    width: 90%;
-    height: 630px;
 
     animation-name: fade;
     animation-duration: 0.5s;
 
     @media screen and (min-width: $screen-breakpoint) {
-        display: flex;
-        margin: auto;
-        width: 1300px;
-        height: 60px;
-        margin-top: 100px;
-    }
-}
-
-
-#close_button {
-    display: block;
-    position: absolute;
-    top: 5px;
-    right: 10px;
-    background-color: #011827;
-    border: none;
-    color: white;
-    font-size: 34px;
-
-    @media screen and (min-width: $screen-breakpoint) {
         display: none;
     }
-}
 
-ul {
-
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 150px;
-
-    @media screen and (min-width: $screen-breakpoint) {
-        display: flex;
-        flex-direction: row;
-        margin: auto;
-        width: 1100px;
+    #close_button {
+        position: fixed;
+        top: 10px;
+        right: 30px;
+        border: none;
+        width: 30px;
+        background-color: #011827;
+        color: white;
+        font-size: 40px;
     }
-}
 
-li {
-    margin: 0 50px;
-    font-size: 24px;
-    color: white;
-    font-weight: bold;
-    padding: 20px;
+    ul {
 
-    @media screen and (min-width: $screen-breakpoint) {
-       
+        color: white;
+        list-style: none;
+        font-size: 28px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    li {
+        margin: 30px;
     }
 }
 
